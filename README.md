@@ -1,7 +1,9 @@
 # Olist-E-Commerce-Sales-Analysis-using-excel
-**Project Type :** Data Analytics Portfolio Project.
+Using Microsoft Excel to analyze sales performance, seller distribution by city, product category performance, and freight costs to evaluate overall marketplace business performance.
+## Project Overview
+1. Project Type : Data Analytics Portfolio Project
+2. Project File : The completed Excel analysis file can be accessed by [clicking here](https://drive.google.com/file/d/1H6L7srHpDu5-CVeoSNtPxMv05WDsmZJ_/view?usp=sharing).
 
-Using Microsoft Excel to analyze sales performance, seller distribution by city, product category performance, and freight costs to evaluate marketplace business performance.
 
 ## Introduction
 Olist is an e-commerce marketplace in Brazil that connects various sellers with customers through a digital platform. To understand the marketplace's business performance, it is important to analyze sales contributions, seller activity across different regions, product category performance, and freight cost structures. This project aims to analyze Olist transaction data to identify key sales contributors, understand seller performance by city, evaluate product category contributions, and examine the proportion of freight costs compared to product sales. The analysis is conducted using Microsoft Excel, utilizing data processing, data modeling, calculations, and interactive visualizations to create a dashboard that supports data-driven business performance evaluation.
@@ -104,7 +106,7 @@ Overall, Olist needs to maintain a balance between revenue growth and consistenc
     </td>
     </td>
     <td align="center">
-      <img src="olist_marketplace/photo/top-category-5-by-count-product.png" width="100%" />
+      <img src="olist_marketplace/photo/Top-5-category-by-count-products.png" width="100%" />
     </td>
   </tr>
 </table>
