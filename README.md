@@ -34,9 +34,14 @@ Sales performance analysis uses orders with a delivered status as the basis for 
 ## Analysis Workflow
 ### Data Prepation
 The data was prepared using Power Query through a process of examining table structures, data types, missing values, and duplicates. This stage aimed to ensure that the data had an appropriate structure before being used for data modeling and analysis.
+![Example Power Query](olist_marketplace/photo/power-query.png)
+
 
 ### Data Modeling and Calculations
 Power Pivot was used to build the data model and establish the necessary relationships between tables. Furthermore, DAX was used to create measures as the basis for calculating business performance indicators.
+
+![Data Prepation](olist_marketplace/photo/data-model.png)
+![Example DAX](olist_marketplace/photo/dax.png)
 
 ### Sales Performance Analysis
 The analysis was conducted to understand the development of revenue and order volume over time. The observation focused on sales trends, fluctuations across periods, and the relationship between revenue and the number of orders.
@@ -46,6 +51,21 @@ The product category analysis was conducted by comparing the number of orders, r
 
 ## Analysis Results and Key Findings
 ### Sales Performance Analysis
+<table>
+  <tr>
+    <th>History Timeline</th>
+    <th>Revenue Order Relationship</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="olist_marketplace/photo/timeline-history.png" width="100%" />
+    </td>
+    <td align="center">
+      <img src="olist_marketplace/photo/revenue-order-relationship.png" width="100%" />
+    </td>
+  </tr>
+</table>
+
 #### Key findings
 1. Revenue shows an upward trend from one period to another, despite experiencing fluctuations in certain periods, with revenue increasing from BRL 13.497 in the initial period to BRL 83.857.664  in the final period.
 2. The largest increase in revenue occurred in November 2017, with revenue rising by BRL 33.951.772 or 52% compared to the previous month.
@@ -63,6 +83,31 @@ Furthermore, the low number of orders in September and December 2016, with only 
 Overall, Olist needs to maintain a balance between revenue growth and consistency in the number of orders. Regular monitoring of sales performance can help the marketplace identify changes in transaction trends, evaluate the effectiveness of business strategies, and determine appropriate actions to sustain revenue growth and ensure the long-term sustainability of business activities.
 
 ### Product Category Performance Analysis
+
+<table>
+  <tr>
+    <th>Top 5 Product Category By Order</th>
+    <th>Top 5 Product Category By Revenue</th>
+    <th>Top 5 Product Category By Contribution</th>
+    <th>Top 5 Product Category By Count Product</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="olist_marketplace/photo/top-5-category-by-order.png" width="100%" />
+    </td>
+    <td align="center">
+      <img src="olist_marketplace/photo/top-5-category-by-revenue.png" width="100%" />
+    </td>
+    </td>
+    <td align="center">
+      <img src="olist_marketplace/photo/top-5-by-contribution.png" width="100%" />
+    </td>
+    </td>
+    <td align="center">
+      <img src="olist_marketplace/photo/top-category-5-by-count-product.png" width="100%" />
+    </td>
+  </tr>
+</table>
 #### Key Findings
 1. The bed_bath_table category ranks first among the top five product categories in terms of the number of orders, with a total of 9.272 orders, followed by the health_beauty category with 8.647 orders. This indicates a high level of customer demand and transaction activity in the bed_bath_table category.
 2. The health_beauty category generates the highest revenue among the top five categories, amounting to BRL 123.313.172, with a contribution of 9%, despite ranking second in terms of the total number of orders, with 8647 orders.
